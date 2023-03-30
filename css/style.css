@@ -1,0 +1,30 @@
+body {
+  background-color: lightgray;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h1 {
+  text-align: center;
+}
+
+#cont {
+  width: 90vw;
+  margin: 0 auto;
+  padding: 10px;
+  /* border: 1px solid grey; */
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 350px;
+  height: 600px;
+  margin: 10px auto;
+  padding: 5px;
+  /* background-color: rgb(227, 227, 227); */
+  border: 2px solid grey;
+  border-radius: 5px;
+  text-align: center;
+}
